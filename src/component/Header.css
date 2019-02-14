@@ -1,0 +1,144 @@
+
+.s-menu-topLink {
+    z-index: 900;
+    font-size: 13px;
+    float: right !important;
+    line-height: 39px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+#main_header {
+    width: 980px;
+    margin: 0 auto;
+    padding: 3px 0 0 0;
+    position: relative;
+    z-index: 900;
+}
+
+#logo_link {
+    display: inline-block;
+    min-height: 40px;
+}
+
+.navBackground {
+    background-color: #268ecd;
+    position: absolute;
+    width: 100%;
+    min-width: 990px;
+    height: 125px;
+    top: 45px;
+    z-index: -1;
+}
+
+nav.primary {
+    width: 980px;
+    z-index: 899;
+    padding: 18px 0 0 0;
+    margin: 0 auto;
+    position: relative;
+    top: 2px;
+}
+nav ul {
+    padding-inline-start:7px
+}
+nav.primary ul {
+    display: inline-block;
+    no-repeat: bottom center;
+    margin-bottom: 0px;
+}
+
+nav.primary ul li {
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+nav.primary ul li button {
+    margin: 0 5px;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'OpenSansRegular';
+    font-size: 15px;
+    padding: 2px 12px;
+    height: 29px;
+    line-height: 23px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+nav.primary ul li button:hover, nav.primary ul li button:focus {
+    background-color: #33aae5 !important;
+    border-color: #4db5e8;
+}
+
+nav.primary ul li.on {
+    background: url(../../images/primary_nav_arrow.gif) no-repeat bottom center;
+}
+
+nav.primary ul li.on button {
+    background-color: #53b8e7 !important;
+}
+
+nav.primary ul li button:visited {
+    color: #fff;
+}
+
+nav.primary ul li #home {
+    margin-left: 0;
+    background: url(../../images/sprite_assets.png) no-repeat -635px 3px transparent;
+    padding: 0 3px;
+    width:33px;
+    text-indent: -9999px;
+}
+
+nav#secondary {
+    width: 980px;
+    height:28px;
+    margin: 0 auto;
+    border: 1px solid #e9e9e9;
+    border-radius: 4px 4px 0 0;
+    color: #777;
+    position: relative;
+    background-color: #f7f7f7;
+}
+
+nav#secondary button{
+    display: inline-block;
+    font-size: 13px;
+    margin: 0 7px;
+    padding: 2px 0 0 0;
+    line-height: 22px;
+    text-decoration: none;
+    border: 1px solid transparent;
+    color: #888;
+}
+nav#secondary button.on {
+    color: #f27921;
+    border-bottom: 1px solid #f27921;
+}
+nav#secondary>ul>li {
+    display: inline-block;
+}
+.nameClass{
+    color:#53b8e7
+}
+.activeTab {
+    color: #f27921 !important;
+    border-bottom: 1px solid #f27921 !important;;
+}
+
+#page-container, .user_home_page #page-content {
+    width: 980px;
+    background-color: #fff;
+    clear: both;
+    padding: 15px 12px 40px 12px;
+    margin: 0 auto;
+    border: 1px solid #e9e9e9;
+    border-top: 0;
+    border-radius: 0 0 4px 4px;
+    border-bottom: 4px solid #268ecd;
+    z-index: 1;
+}

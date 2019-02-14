@@ -1,0 +1,49 @@
+.ticketGroup {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    width: 100%
+}
+
+.ticketsViewHrefText {
+    font-size: 11px;
+    padding: 1px;
+    word-wrap: break-word;
+}
+
+.assignedTicketsBody {
+    padding: 0 30px;
+}
+
+.ticketsToActionTable {
+    padding: 0 10px;
+}
+
+.ticketsToActionSearchLabel {
+    text-align: right;
+    padding-top: 5px;
+}
+
+.teamCalendarHeaderDiv {
+    display: flex;
+    align-items: flex-start;
+    flex: 1;
+}
+
+.teamCalendarBody {
+    display: flex;
+    flex: 1;
+}
+
+.teamCalendarBody.rbc-calendar {
+    width: 100%;
+}
+
+.sectionHeaderBtnGroup > .form-group {
+    margin-bottom: -10px !important;
+}
+
+.announcementsBorderSolid {
+    border: solid 1px;
+    padding: 3px 5px;
+}

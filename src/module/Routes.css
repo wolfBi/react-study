@@ -1,0 +1,46 @@
+.routes_container {
+    justify-content: center;
+}
+
+.routes_content {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    width: 100%;
+    min-height: 300px;
+}
+
+.routes_collapse {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    width: 100%;
+    min-height: 25px;
+    margin-top: 2px;
+}
+
+.routes_collapse svg {
+    color: rgba(0, 101, 189, 1);
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.routes_content .second_part {
+    width: 100%;
+    min-height: 550px;
+}
