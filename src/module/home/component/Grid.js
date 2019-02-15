@@ -5,7 +5,6 @@ import Detail from "./Detail";
 import DragableGrid from "../../../component/DragableGrid";
 import "./Grid.css";
 
-const SIZE_PER_PAGE = 20
 export default class Grid extends Component {
     constructor(props) {
         super(props);
@@ -123,7 +122,7 @@ export default class Grid extends Component {
 
     fetchData = () => {
         if (this.props.userProfile && !CommonUtil.isEmpty(this.props.userProfile.name)) {
-            const url = this.state.selectedBaseApi+'/scheduler/list' +
+            const url = this.state.selectedBaseApi + '/scheduler/list';
             LogUtil.info('fetch overview data from ' + url)
             HttpUtil.get(url, {}, this.props.dispatch)
                 .then((jsonData) => {

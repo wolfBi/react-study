@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import {Col} from 'react-bootstrap'
-import OptimizeLogo from '../../images/optimize_server_manger_logo.png';
+import OptimizeLogo from '../assets/images/optimize_server_manger_logo.png';
 
 class LoginFailed extends Component {
     render() {

@@ -1,9 +1,5 @@
-import React from "react";
-import ReactDOM from "react-dom";
 import ActionType from "./ActionType";
-import LoginFailed from "../component/LoginFailed";
 import {createAction} from "redux-actions";
-import {CommonUtil, HttpUtil} from "../utils";
 
 export const startAjax = createAction(ActionType.startAjaxType);
 export const endAjax = createAction(ActionType.endAjaxType);
@@ -17,10 +13,11 @@ export const closeNotice = createAction(ActionType.closeNotice);
 export const changeApplicationMenu = createAction(ActionType.change_ApplicationMenu);
 
 export const autoLogin = () => dispatch => {
+    let userProfile = {};
     dispatch(setUserToSession(userProfile, true));
 }
 export const getToken = () => dispatch => {
-    dispatch(receiveToken(json));
+    dispatch(receiveToken({}));
 }
 
 export const getUserFromAPI = (userFMNO, userToken) => dispatch => {
@@ -31,5 +28,6 @@ export const getUserFromAPI = (userFMNO, userToken) => dispatch => {
 }
 
 export const setUserToSession = (userProfile, needInit = false) => dispatch => {
+    let userProfile = {};
     dispatch(receiveUserProfile(userProfile));
 }

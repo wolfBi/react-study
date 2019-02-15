@@ -75,7 +75,7 @@ nav.primary ul li button:hover, nav.primary ul li button:focus {
 }
 
 nav.primary ul li.on {
-    background: url(../../images/primary_nav_arrow.gif) no-repeat bottom center;
+    background: url(../assets/images/primary_nav_arrow.gif) no-repeat bottom center;
 }
 
 nav.primary ul li.on button {
@@ -88,7 +88,7 @@ nav.primary ul li button:visited {
 
 nav.primary ul li #home {
     margin-left: 0;
-    background: url(../../images/sprite_assets.png) no-repeat -635px 3px transparent;
+    background: url(../assets/images/sprite_assets.png) no-repeat -635px 3px transparent;
     padding: 0 3px;
     width:33px;
     text-indent: -9999px;
