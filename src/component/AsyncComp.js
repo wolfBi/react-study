@@ -1,6 +1,3 @@
-/**
- * Created by Wanggen Zhou on 8/30/2017.
- */
 import React from "react";
 import Loadable from "react-loadable";
 import LoadingComp from "./LoadingComp";

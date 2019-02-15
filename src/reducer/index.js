@@ -1,6 +1,3 @@
-/**
- * Created by zhou on 2017/6/10.
- */
 import ActionType from "../action/ActionType";
 import {combineReducers} from "redux";
 import {filterActions} from "redux-ignore";
@@ -41,14 +38,14 @@ const user = handleActions({
     }),
 }, {
     isLogining: false, token: {access_token: "", expires_in: "", token_type: ""},
-    userProfile: {fmno: '', name: '', email: '', active: ''}
+    userProfile: {name: '', email: '', active: ''}
 });
 
 const notice = handleActions({
-    [actions.showOSMNoticeMsg]: (state, action) => ({
+    [actions.showNoticeMsg]: (state, action) => ({
         message: action.payload
     }),
-    [actions.closeOSMNotice]: (state, action) => ({
+    [actions.closeNotice]: (state, action) => ({
         message: ''
     })
 }, {message: ''});

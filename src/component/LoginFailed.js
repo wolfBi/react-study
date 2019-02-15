@@ -1,6 +1,3 @@
-/**
- * Created by tong on 2017/12/18.
- */
 import React, {Component} from 'react'
 import {Col} from 'react-bootstrap'
 import OptimizeLogo from '../../images/optimize_server_manger_logo.png';

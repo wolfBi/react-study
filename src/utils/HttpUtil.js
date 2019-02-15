@@ -1,6 +1,3 @@
-/**
- * Created by Wanggen Zhou on 9/4/2017.
- */
 import fetch from "isomorphic-fetch";
 import Promise from "promise";
 import {endAjax, startAjax} from "../action";

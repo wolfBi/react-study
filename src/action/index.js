@@ -1,6 +1,3 @@
-/**
- * Created by zhou on 2017/6/10.
- */
 import React from "react";
 import ReactDOM from "react-dom";
 import ActionType from "./ActionType";
@@ -15,8 +12,8 @@ export const userStartLogin = createAction(ActionType.user_start_login);
 export const userEndLogin = createAction(ActionType.user_end_login);
 export const receiveUserProfile = createAction(ActionType.receive_user_profile);
 
-export const showOSMNoticeMsg = createAction(ActionType.showOSMNoticeMsg);
-export const closeOSMNotice = createAction(ActionType.closeOSMNotice);
+export const showNoticeMsg = createAction(ActionType.showNoticeMsg);
+export const closeNotice = createAction(ActionType.closeNotice);
 export const changeApplicationMenu = createAction(ActionType.change_ApplicationMenu);
 
 export const autoLogin = () => dispatch => {

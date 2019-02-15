@@ -1,6 +1,3 @@
-/**
- * Created by Wanggen Zhou on 8/30/2017.
- */
 import React, {Component} from 'react';
 import Loading from 'react-loading';
 import './LoadingComp.css';

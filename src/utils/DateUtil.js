@@ -1,7 +1,3 @@
-/**
- * Created by zhou on 2017/4/26.
- */
-
 import moment from "moment";
 
 export default class DateUtil {

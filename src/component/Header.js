@@ -1,11 +1,8 @@
-/**
- * Created by zhou on 2017/6/13.
- */
 import React, {Component} from "react";
 import ObjectAssign from "object-assign";
 import {connect} from "react-redux";
 import {bindActionCreators} from "redux";
-import OptimizeLogo from "../images/logo-main-blue.svg";
+import OptimizeLogo from "../assets/images/logo-main-blue.svg";
 import "./Header.css";
 
 class Header extends Component {

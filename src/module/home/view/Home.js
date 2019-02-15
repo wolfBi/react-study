@@ -3,7 +3,7 @@ import ObjectAssign from "object-assign";
 import {connect} from "react-redux";
 import {bindActionCreators} from "redux";
 import * as actions from "../action";
-import {showOSMNoticeMsg} from "../../../action";
+import {showNoticeMsg} from "../../../action";
 import { Grid } from "../component";
 import "./Home.css";
 
@@ -24,7 +24,7 @@ const mapStateToProps = (state, ownProps) => {
 }
 
 const mapDispatchToProps = (dispatch, ownProps) => {
-    return bindActionCreators(ObjectAssign({}, actions, {showOSMNoticeMsg, dispatch}), dispatch);
+    return bindActionCreators(ObjectAssign({}, actions, {showNoticeMsg, dispatch}), dispatch);
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(Home);

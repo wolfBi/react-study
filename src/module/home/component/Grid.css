@@ -205,7 +205,7 @@
 .arrow_icon{
     width: 32px;
     height: 32px;
-    background: url(../../../images/sprite_iconbuttons_18x18.svg) no-repeat top left;
+    background: url(../../../assets/images/sprite_iconbuttons_18x18.svg) no-repeat top left;
 }
 .arrow_icon.expand_icon{
     background-position: -462px -425px;
