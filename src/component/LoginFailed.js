@@ -24,7 +24,7 @@ class LoginFailed extends Component {
                 </Col>
                 <Col xs={12} className={'loginFailed-text-line'}>
                  <span className='paddingRight10 loginFailed-text'>
-                     {'Please reach out to Optimize_Helpdesk@Mckinsey.com or VoIP: 315 for further assistance.'}
+                     {'Please reach out to @com or VoIP:  for further assistance.'}
                  </span>
                 </Col>
             </div>
